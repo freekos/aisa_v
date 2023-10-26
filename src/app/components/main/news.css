@@ -1,0 +1,9 @@
+.news::-webkit-scrollbar {
+  width: 10px;
+  display: none;
+}
+
+.news-text {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
