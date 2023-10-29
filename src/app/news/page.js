@@ -1,4 +1,4 @@
-import { Main } from '../components/news';
+import { Main } from '@/components/news';
 
 export default function News() {
   return (

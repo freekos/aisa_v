@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { news } from '@/app/consts';
+import { news } from '@/consts';
 import { Header } from '../shared';
 
 export const Article = () => {

@@ -25,7 +25,7 @@ export const Header = () => {
     <header className='px-10 flex items-center justify-between'>
       <Link className='flex items-center' href='/'>
         <Image src='/logo.png' alt='logo' width={112} height={112} />
-        <p className='ml-8'>ИЮЛЬ, 29-31, 2023</p>
+        <p className='ml-8'>ИЮЛЬ, 29-31, 2024</p>
       </Link>
       <nav className='flex gap-8'>
         {links.map((link) => (

@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import { news } from '@/app/consts';
-import { ArrowIcon } from '@/app/icons';
+import { news } from '@/consts';
+import { ArrowIcon } from '@/icons';
 
 import './news.css';
 import Link from 'next/link';

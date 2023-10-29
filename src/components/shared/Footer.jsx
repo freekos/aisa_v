@@ -73,8 +73,10 @@ const links = {
 
 export const Footer = () => {
   return (
-    <footer className='pt-20'>
-      <div className='px-10 flex items-center justify-between'>
+    <footer className='pt-20 relative'>
+      <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#FE17BD] left-[-5%] top-[-10%] blur-[600px]' />
+      <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#C87800] right-0 top-[-20%] blur-[600px]' />
+      <div className='px-10 relative flex items-center justify-between'>
         <div>
           <Image src='/logo.png' width={120} height={120} alt='logo' />
           <div className='flex gap-10 mt-20 mb-11'>
@@ -89,10 +91,10 @@ export const Footer = () => {
             ))}
           </div>
           <div className='flex flex-col gap-4'>
-            <Link href='/' className='text-sm text-gray-500'>
+            <Link href='/' className='text-sm text-gray-500 hover:underline'>
               Политика конфиденциальности
             </Link>
-            <Link href='/' className='text-sm text-gray-500'>
+            <Link href='/' className='text-sm text-gray-500 hover:underline'>
               Условия использования
             </Link>
           </div>
@@ -103,7 +105,11 @@ export const Footer = () => {
               <div className='flex flex-col gap-4' key={item.title}>
                 <p className='font-bold'>{item.title}</p>
                 {item.links.map((link) => (
-                  <Link key={link.title} href={link.link} className='text-sm'>
+                  <Link
+                    key={link.title}
+                    href={link.link}
+                    className='text-sm hover:underline'
+                  >
                     {link.title}
                   </Link>
                 ))}

@@ -1,4 +1,4 @@
-import { Article } from '../../components/news';
+import { Article } from '@/components/news';
 
 export default function ArticlePage() {
   return (
