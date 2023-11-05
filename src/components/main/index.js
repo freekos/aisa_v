@@ -3,3 +3,4 @@ export * from './Competitions';
 export * from './Merch';
 export * from './History';
 export * from './News';
+export * from './Partners';
