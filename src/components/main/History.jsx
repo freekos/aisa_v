@@ -5,7 +5,9 @@ import Link from 'next/link';
 export const History = () => {
   return (
     <div className='max-w-[1440px] mt-40 mx-auto px-10 relative z-20'>
-      <p className='font-black mb-6 text-6xl'>Азия Дауысы: Сквозь года</p>
+      <p className='font-black mb-6 text-6xl russo-one'>
+        Азия Дауысы: Сквозь года
+      </p>
       <div className='w-[100%] max-h-[640px] aspect-video bg-[url("/history/2022.jpg")] bg-cover bg-center rounded-3xl overflow-hidden cursor-pointer'>
         <div className='bg-[#1B19194D] w-[100%] h-[100%] hover:bg-[#1B191988] flex justify-center items-center'>
           <p className='bg-white px-6 py-4 rounded-3xl text-[#583EEC] inline-block font-black text-3xl'>

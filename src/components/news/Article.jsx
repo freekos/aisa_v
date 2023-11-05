@@ -6,7 +6,16 @@ export const Article = () => {
   return (
     <div>
       <div className='min-w-full min-h-screen bg-[url("/history/2018.jpg")] bg-cover bg-center'>
-        <Header />
+        <div
+          style={{
+            position: 'absolute',
+            height: '100vh',
+            width: '100%',
+            backgroundImage: 'linear-gradient(black, transparent)',
+          }}
+        >
+          <Header />
+        </div>
       </div>
       <div className='max-w-[1440px] mx-auto mb-36 px-10'>
         <p className='mt-2 text-[#6B7280] text-sm'>

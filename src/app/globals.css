@@ -2,6 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://p.typekit.net/p.css?s=1&k=zgt0eaw&ht=tk&f=45517.45518.45519.45520.45521&a=85556998&app=typekit&e=css');
+
+@font-face {
+  font-family: 'aesthet-nova';
+  src: url('https://use.typekit.net/af/36cb03/00000000000000007735c512/30/l?subset_id=2&fvd=n3&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/36cb03/00000000000000007735c512/30/d?subset_id=2&fvd=n3&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/36cb03/00000000000000007735c512/30/a?subset_id=2&fvd=n3&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'aesthet-nova';
+  src: url('https://use.typekit.net/af/1acbbe/00000000000000007735c514/30/l?subset_id=2&fvd=n4&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/1acbbe/00000000000000007735c514/30/d?subset_id=2&fvd=n4&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/1acbbe/00000000000000007735c514/30/a?subset_id=2&fvd=n4&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'aesthet-nova';
+  src: url('https://use.typekit.net/af/7cba4a/00000000000000007735c518/30/l?subset_id=2&fvd=n5&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/7cba4a/00000000000000007735c518/30/d?subset_id=2&fvd=n5&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/7cba4a/00000000000000007735c518/30/a?subset_id=2&fvd=n5&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'aesthet-nova';
+  src: url('https://use.typekit.net/af/49a1a8/00000000000000007735c51e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/49a1a8/00000000000000007735c51e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/49a1a8/00000000000000007735c51e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'aesthet-nova';
+  src: url('https://use.typekit.net/af/8e13df/00000000000000007735c522/30/l?subset_id=2&fvd=n9&v=3')
+      format('woff2'),
+    url('https://use.typekit.net/af/8e13df/00000000000000007735c522/30/d?subset_id=2&fvd=n9&v=3')
+      format('woff'),
+    url('https://use.typekit.net/af/8e13df/00000000000000007735c522/30/a?subset_id=2&fvd=n9&v=3')
+      format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
+
+.tk-aesthet-nova {
+  font-family: 'aesthet-nova', serif;
+}
+
+.russo-one {
+  font-family: 'Russo One', sans-serif;
+}
+
+.pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

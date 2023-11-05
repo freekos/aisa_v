@@ -5,7 +5,7 @@ import Link from 'next/link';
 export const Competiotions = () => {
   return (
     <div className='max-w-[1440px] mt-40 mx-auto px-10'>
-      <p className='font-black mb-6 text-6xl'>Конкурсы</p>
+      <p className='font-black mb-6 text-6xl russo-one'>Конкурсы</p>
       <div className='grid md:grid-cols-2 grid-cols-1 gap-10'>
         <Link
           href='https://contest.kz/'

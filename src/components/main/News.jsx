@@ -8,7 +8,7 @@ import Link from 'next/link';
 export const News = () => {
   return (
     <div className='mt-24'>
-      <p className='px-10 font-black mb-6 text-6xl'>Новости</p>
+      <p className='px-10 font-black mb-6 text-6xl russo-one'>Новости</p>
       <div className='news overflow-x-auto flex gap-6 px-10'>
         {news.map((item) => {
           return (

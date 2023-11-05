@@ -2,15 +2,34 @@ import { Header } from '../shared';
 
 export const Hero = () => {
   return (
-    <div className='min-w-screen h-screen bg-[url("/images/main.jpg")] bg-[lightgray]/50 bg-blend-screen bg-cover bg-center relative'>
-      <Header />
-      <div className='flex flex-col items-center justify-center w-full h-[calc(100%-112px)] gap-10'>
-        <p className='font-black text-8xl'>История</p>
-        <p className='text-3xl max-w-5xl text-center'>
-          Впервые «Голос Азии» состоялся в Алма-Ате в 1990 году.
-          <br />
-          Тогда в нем приняли участие представители из 15 стран мира.
-        </p>
+    <div className='min-w-screen h-screen relative'>
+      <div
+        style={{
+          position: 'absolute',
+          height: '100vh',
+          width: '100%',
+        }}
+      >
+        <video
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src='./main.m4v' type='video/mp4' />
+        </video>
+      </div>
+      <div
+        style={{
+          position: 'absolute',
+          height: '100vh',
+          width: '100%',
+          backgroundImage:
+            'linear-gradient(black, transparent 50%, transparent 95%, #F6EADA 100%)',
+        }}
+      >
+        <Header />
       </div>
     </div>
   );

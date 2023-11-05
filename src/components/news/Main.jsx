@@ -6,9 +6,9 @@ import Link from 'next/link';
 export const Main = () => {
   return (
     <div>
-      <Header />
+      <Header color='black' />
       <div className='max-w-[1440px] mt-28 mx-auto px-10'>
-        <p className='font-black text-8xl mb-20'>Новости</p>
+        <p className='font-black text-8xl mb-20 russo-one'>Новости</p>
         <div className='w-full max-h-[568px] aspect-video rounded-3xl bg-[url("/history/2018.jpg")] bg-cover bg-center' />
         <p className='my-5 font-bold text-5xl'>
           Азия Дауысы 2023: Главное событие этого лета

@@ -74,8 +74,8 @@ const links = {
 export const Footer = () => {
   return (
     <footer className='pt-20 relative'>
-      <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#FE17BD] left-[-5%] top-[-10%] blur-[600px]' />
-      <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#C87800] right-0 top-[-20%] blur-[600px]' />
+      <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#fe17bd4d] left-[-5%] top-[-10%] blur-[600px]' />
+      <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#C87800CC] right-0 top-[-20%] blur-[600px]' />
       <div className='px-10 relative flex items-center justify-between'>
         <div>
           <Image src='/logo.png' width={120} height={120} alt='logo' />
@@ -84,8 +84,8 @@ export const Footer = () => {
               <Image
                 src={link.src}
                 alt={link.alt}
-                width={24}
-                height={24}
+                width={32}
+                height={32}
                 key={link.alt}
               />
             ))}
@@ -97,6 +97,7 @@ export const Footer = () => {
             <Link href='/' className='text-sm text-gray-500 hover:underline'>
               Условия использования
             </Link>
+            <p className='text-sm text-gray-500'>© 2023 The Voice of Asia</p>
           </div>
         </div>
         <div className='flex gap-20 mr-28'>
@@ -118,7 +119,11 @@ export const Footer = () => {
           })}
         </div>
       </div>
-      <img src='/images/medeu.png' alt='medeu' className='w-screen' />
+      <img
+        src='/images/medeu.png'
+        alt='medeu'
+        className='w-screen mt-[-60px]'
+      />
     </footer>
   );
 };
