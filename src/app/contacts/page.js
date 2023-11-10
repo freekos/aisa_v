@@ -4,7 +4,7 @@ export default function ContactsPage() {
     <main>
       <div>
         <Header color='black' />
-        <div className='max-w-[1440px] mt-28 mx-auto px-4 md:px-10'>
+        <div className='max-w-[1440px] mt-14 md:mt-28 mx-auto px-4 md:px-10'>
           <p className='my-5 font-bold text-2xl md:text-5xl'>Контакты</p>
           <div className='flex flex-col md:flex-row gap-6 md:gap-16 mt-10'>
             <div>
