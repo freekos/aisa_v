@@ -74,8 +74,8 @@ const links = {
 export const Footer = () => {
   return (
     <footer className='pt-20 relative'>
-      <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#fe17bd4d] left-[-5%] top-[-10%] blur-[600px]' />
-      <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#C87800CC] right-0 top-[-20%] blur-[600px]' />
+      {/* <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#fe17bd4d] left-[-5%] top-[-10%] blur-[600px]' />
+      <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#C87800CC] right-0 top-[-20%] blur-[600px]' /> */}
       <div className='px-4 md:px-10 relative flex flex-col-reverse lg:flex-row lg:items-center justify-between'>
         <div>
           <Image src='/logo.png' width={120} height={120} alt='logo' />
