@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const links = [
   {
@@ -18,13 +19,16 @@ const links = [
     name: 'Новости',
   },
   {
-    href: '/',
+    href: '/contacts',
     name: 'Контакты',
   },
 ];
 
 export const Header = ({ color = 'white' }) => {
   const [nav, setNav] = useState(false);
+  const router = useRouter();
+
+  const handleNavigate = () => router.push('form');
 
   return (
     <header className='pt-10 pb-5 px-10 flex items-center justify-between '>
@@ -72,7 +76,7 @@ export const Header = ({ color = 'white' }) => {
           Ру{' '}
           <svg
             className='w-2.5 h-2.5 ml-2.5'
-            ariaHidden='true'
+            aria-hidden='true'
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
             viewBox='0 0 10 6'
@@ -86,32 +90,10 @@ export const Header = ({ color = 'white' }) => {
             />
           </svg>
         </button>
-        <div
-          id='dropdownNavbar'
-          className=' relative z-40 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600'
-        >
-          <ul className='py-2 text-sm text-gray-700 dark:text-gray-400'>
-            <li>
-              <a
-                href='#'
-                className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-              >
-                Ру
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white'
-              >
-                En
-              </a>
-            </li>
-          </ul>
-        </div>
         <button
           className='hidden lg:block px-6 py-4 bg-[#FF9E2C] hover:bg-[#FFBF75] rounded-2xl font-bold'
           style={{ color: color }}
+          onClick={handleNavigate}
         >
           Подать заявку на участие
         </button>
@@ -136,7 +118,10 @@ export const Header = ({ color = 'white' }) => {
                 {link.name}
               </Link>
             ))}
-            <button className='p-4 bg-[#FF9E2C] hover:bg-[#FFBF75] rounded-2xl font-bold text-black'>
+            <button
+              className='p-4 bg-[#FF9E2C] hover:bg-[#FFBF75] rounded-2xl font-bold text-black'
+              onClick={handleNavigate}
+            >
               Подать заявку на участие
             </button>
           </ul>

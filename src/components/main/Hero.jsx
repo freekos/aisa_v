@@ -2,8 +2,8 @@ import { Header } from '../shared';
 
 export const Hero = () => {
   return (
-    <div className='min-w-screen h-screen relative'>
-      <div
+    <div className='min-w-screen min-h-screen bg-[url("/images/main.jpg")] bg-cover bg-center relative'>
+      {/* <div
         style={{
           position: 'absolute',
           height: '100vh',
@@ -19,7 +19,7 @@ export const Hero = () => {
         >
           <source src='./main.m4v' type='video/mp4' />
         </video>
-      </div>
+      </div> */}
       <div
         style={{
           position: 'absolute',

@@ -38,7 +38,7 @@ const links = {
         },
         {
           title: 'Контакты',
-          link: '/',
+          link: '/contacts',
         },
       ],
     },
@@ -47,11 +47,11 @@ const links = {
       links: [
         {
           title: 'Жас Канат',
-          link: '/',
+          link: 'https://contest.kz/',
         },
         {
           title: 'Жас Канат дети',
-          link: '/',
+          link: 'https://contest.kz/',
         },
       ],
     },
