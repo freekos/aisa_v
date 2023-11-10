@@ -25,8 +25,7 @@ export const Hero = () => {
           position: 'absolute',
           height: '100vh',
           width: '100%',
-          backgroundImage:
-            'linear-gradient(black, transparent 50%, transparent 95%, #F6EADA 100%)',
+          backgroundImage: 'linear-gradient(black, transparent)',
         }}
       >
         <Header />

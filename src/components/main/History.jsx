@@ -4,8 +4,8 @@ import Link from 'next/link';
 /* eslint-disable @next/next/no-img-element */
 export const History = () => {
   return (
-    <div className='max-w-[1440px] mt-40 mx-auto px-10 relative z-20'>
-      <p className='font-black mb-6 text-6xl russo-one'>
+    <div className='max-w-[1440px] mt-24 md:mt-40 mx-auto px-4 md:px-10 relative z-20'>
+      <p className='font-black mb-6 text-3xl md:text-6xl russo-one'>
         Азия Дауысы: Сквозь года
       </p>
       <div className='w-[100%] max-h-[640px] aspect-video bg-[url("/history/2022.jpg")] bg-cover bg-center rounded-3xl overflow-hidden cursor-pointer'>

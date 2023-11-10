@@ -73,7 +73,7 @@ const links = {
 
 export const Footer = () => {
   return (
-    <footer className='pt-20 relative'>
+    <footer className='pt-20 relative hidden md:block'>
       <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#fe17bd4d] left-[-5%] top-[-10%] blur-[600px]' />
       <div className='absolute w-[50%] z-0 h-[50%] rounded-full bg-[#C87800CC] right-0 top-[-20%] blur-[600px]' />
       <div className='px-10 relative flex items-center justify-between'>

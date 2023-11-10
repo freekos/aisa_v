@@ -22,7 +22,7 @@ const links = [
 
 export const Header = ({ color = 'white' }) => {
   return (
-    <header className='pt-10 pb-5 px-10 flex items-center justify-between'>
+    <header className='pt-10 pb-5 px-10 hidden md:flex items-center justify-between '>
       <Link className='flex items-center' href='/'>
         <Image src='/logo.png' alt='logo' width={112} height={112} />
         <p
@@ -47,7 +47,7 @@ export const Header = ({ color = 'white' }) => {
       <div className='flex items-center relative'>
         <button
           id='dropdownNavbarLink'
-          dataDropdownToggle='dropdownNavbar'
+          datadropdowntoggle='dropdownNavbar'
           className='flex items-center justify-between py-2 pr-8 font-bold'
           style={{ color: color }}
         >
