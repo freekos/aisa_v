@@ -76,13 +76,13 @@ export const Form = () => {
                 className='block text-sm mb-[2px]'
                 htmlFor='documentNumber'
               >
-                Удостоверение №
+                Паспорт №
               </label>
               <input
                 className='appearance-none border rounded-2xl h-[52px] w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                 id='documentNumber'
                 type='text'
-                placeholder='Удостоверение №'
+                placeholder='Паспорт №'
               />
             </div>
             <div>
