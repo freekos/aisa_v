@@ -2,7 +2,7 @@ import { Header } from '@/components';
 export default function ContactsPage() {
   return (
     <main>
-      <div className='max-w-[1440px] mx-auto px-4 mt-[128px] lg:mt-[176px]'>
+      <div className='max-w-[1440px] mx-auto px-4 mt-[128px] lg:mt-[200px]'>
         <p className='my-5 font-bold text-2xl md:text-5xl'>Контакты</p>
         <div className='flex flex-col md:flex-row gap-6 md:gap-16 mt-10'>
           <div>

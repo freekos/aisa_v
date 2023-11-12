@@ -2,7 +2,7 @@ import { Header } from '../shared';
 
 export const Form = () => {
   return (
-    <div className='max-w-[1440px] mt-[128px] lg:mt-[176px] mx-auto px-4 md:px-10'>
+    <div className='max-w-[1440px] mt-[128px] lg:mt-[200px] mx-auto px-4 md:px-10'>
       <p className='font-black text-4xl md:text-6xl mb-10 md:mb-20 russo-one'>
         Подача заявки Азия Дауысы 2024
       </p>

@@ -31,7 +31,7 @@ export const Header = ({ color = 'black' }) => {
   const handleNavigate = () => router.push('form');
 
   return (
-    <header className='pt-4 pb-5 px-4 md:px-10 flex items-center justify-between fixed w-full z-50 top-0 left-0 bg-[#f8d0ae]'>
+    <header className='pt-4 pb-5 px-4 md:px-10 flex items-center justify-between fixed w-full z-50 top-0 left-0 bg-[#F6EADA]'>
       <Link className='flex items-center' href='/'>
         <Image
           src='/logo.png'
