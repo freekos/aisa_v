@@ -1,7 +1,7 @@
 export const History = () => {
   return (
-    <div className='mx-auto max-w-[1340px] w-[100%] px-4 md:px-10 mt-28'>
-      <div className='w-full mb-[120px]'>
+    <div className='mx-auto max-w-[1340px] w-[100%] px-4 md:px-10 mt-14 lg:mt-28'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='text-md md:text-xl mt-4'>
           <b>Главная идея фестиваля</b> - пробуждение у музыкантов всего мира
           интереса к своей национальной культуре, к музыкальным традициям своего
@@ -21,7 +21,7 @@ export const History = () => {
           мира.
         </p>
       </div>
-      <div className='w-full flex items-center mb-[120px] flex-col md:flex-row'>
+      <div className='w-full flex items-center mb-[64px] lg:mb-[120px] flex-col md:flex-row'>
         <div className='w-[100%] md:w-[55%] flex-shrink-0 max-w-[720px] pt-[66%] md:pt-[40%] bg-[url("/history/1990.png")] bg-cover bg-center rounded-3xl' />
         <div className='ml-0 md:ml-14 mt-4 md:mt-0'>
           <p className='font-black text-3xl md:text-6xl'>1990</p>
@@ -41,7 +41,7 @@ export const History = () => {
           </p>
         </div>
       </div>
-      <div className='w-full flex items-center mb-[120px] flex-col-reverse md:flex-row'>
+      <div className='w-full flex items-center mb-[64px] lg:mb-[120px] flex-col-reverse md:flex-row'>
         <div className='mr-0 md:mr-14 mt-4 md:mt-0'>
           <p className='font-black text-3xl md:text-6xl'>1991</p>
           <p className='text-md md:text-xl mt-4'>
@@ -60,7 +60,7 @@ export const History = () => {
         </div>
         <div className='w-[100%] md:w-[55%] flex-shrink-0 max-w-[720px] pt-[66%] md:pt-[40%] bg-[url("/history/1991.png")] bg-cover bg-center rounded-3xl' />
       </div>
-      <div className='w-full flex items-center mb-[120px] flex-col md:flex-row'>
+      <div className='w-full flex items-center mb-[64px] lg:mb-[120px] flex-col md:flex-row'>
         <div className='w-[100%] md:w-[55%] flex-shrink-0 max-w-[720px] pt-[66%] md:pt-[40%] bg-[url("/history/1992.png")] bg-cover bg-center rounded-3xl' />
         <div className='ml-0 md:ml-14 mt-4 md:mt-0'>
           <p className='font-black text-3xl md:text-6xl'>1992</p>
@@ -82,7 +82,7 @@ export const History = () => {
           </p>
         </div>
       </div>
-      <div className='w-full flex items-center mb-[120px] flex-col-reverse md:flex-row'>
+      <div className='w-full flex items-center mb-[64px] lg:mb-[120px] flex-col-reverse md:flex-row'>
         <div className='mr-0 md:mr-14 mt-4 md:mt-0'>
           <p className='font-black text-3xl md:text-6xl'>1993</p>
           <p className='text-md md:text-xl mt-4'>
@@ -108,7 +108,7 @@ export const History = () => {
         </div>
         <div className='w-[100%] md:w-[55%] flex-shrink-0 max-w-[720px] pt-[66%] md:pt-[40%] bg-[url("/history/1993.png")] bg-cover bg-center rounded-3xl' />
       </div>
-      <div className='w-full flex items-center mb-[120px] flex-col md:flex-row'>
+      <div className='w-full flex items-center mb-[64px] lg:mb-[120px] flex-col md:flex-row'>
         <div className='w-[100%] md:w-[55%] flex-shrink-0 max-w-[720px] pt-[66%] md:pt-[40%] bg-[url("/history/1994.png")] bg-cover bg-center rounded-3xl' />
         <div className='ml-0 md:ml-14 mt-4 md:mt-0'>
           <p className='font-black text-3xl md:text-6xl'>1994</p>
@@ -129,7 +129,7 @@ export const History = () => {
           </p>
         </div>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>1995</p>
         <p className='text-md md:text-xl mt-4'>
           В год 150-летия Абая, один из дней конкурса посвящен великой дате.
@@ -150,7 +150,7 @@ export const History = () => {
           Хаджимуханов (Казахстан)
         </p>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>1996</p>
         <p className='text-md md:text-xl mt-4'>
           Отныне это не конкурс, а фестиваль, в рамках которого кроме
@@ -170,7 +170,7 @@ export const History = () => {
           Учкун (Турция)
         </p>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>1997</p>
         <p className='text-md md:text-xl mt-4'>
           Фестиваль проводится в летнем театре городского парка. Решением ФИДОФ
@@ -193,7 +193,7 @@ export const History = () => {
           3 премия – группа «Слэм» (Малайзия) <br />3 премия - Гуо Ронг (Китай)
         </p>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>1998</p>
         <p className='text-md md:text-xl mt-4'>
           Праздник снова на стадионе «Медеу». 18 конкурсантов из 17 стран мира
@@ -213,7 +213,7 @@ export const History = () => {
           3 премия - Афиа Мала (Того) <br />
         </p>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>1999</p>
         <p className='text-md md:text-xl mt-4'>
           Десятилетний юбилей фестиваль отметил несколькими новыми проектами:
@@ -235,7 +235,7 @@ export const History = () => {
           3 премия - Джимбо (Ирландия) <br />
         </p>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>2000</p>
         <p className='text-md md:text-xl mt-4'>
           23 профессиональных певца представляют 21 страну мира на международном
@@ -257,7 +257,7 @@ export const History = () => {
           Гульнур Оразымбетова (Казахстан)
         </p>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>2001</p>
         <p className='text-md md:text-xl mt-4'>
           Подано более 80 заявок из 43 стран. Из них на фестиваль прошли 16
@@ -280,7 +280,7 @@ export const History = () => {
           <br />3 премия - Джей Дэй (Финляндия)
         </p>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>2002</p>
         <p className='text-md md:text-xl mt-4'>
           На фестивале представлены 15 стран. В связи с начавшейся
@@ -301,7 +301,7 @@ export const History = () => {
           <br />3 премия - Роберта (Болгария)
         </p>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>2003</p>
         <p className='text-md md:text-xl mt-4'>
           Фестиваль снова проходит на сцене Дворца Республики. 18 исполнителей
@@ -321,7 +321,7 @@ export const History = () => {
           «ЧарльзМарк» (Шри-Ланка)
         </p>
       </div>
-      <div className='w-full mb-[120px]'>
+      <div className='w-full mb-[64px] lg:mb-[120px]'>
         <p className='font-black text-3xl md:text-6xl'>2004</p>
         <p className='text-md md:text-xl mt-4'>
           15-й конкурс вновь объединил наши сердца и души в урочище Медеу. И это

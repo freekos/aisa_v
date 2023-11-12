@@ -2,7 +2,7 @@ import { Header } from '../shared';
 
 export const Hero = () => {
   return (
-    <div className='min-w-screen h-screen relative'>
+    <div className='min-w-screen h-screen mt-[108px] lg:mt-[148px] relative'>
       <div
         style={{
           position: 'absolute',
