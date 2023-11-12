@@ -14,7 +14,7 @@ export const Article = () => {
             backgroundImage: 'linear-gradient(black, transparent)',
           }}
         >
-          <Header />
+          {/* <Header /> */}
         </div>
       </div>
       <div className='max-w-[1440px] mx-auto mb-36 px-10'>

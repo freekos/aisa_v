@@ -24,14 +24,14 @@ const links = [
   },
 ];
 
-export const Header = ({ color = 'white' }) => {
+export const Header = ({ color = 'black' }) => {
   const [nav, setNav] = useState(false);
   const router = useRouter();
 
   const handleNavigate = () => router.push('form');
 
   return (
-    <header className='pt-10 pb-5 px-10 flex items-center justify-between '>
+    <header className='pt-4 pb-5 px-4 md:px-10 flex items-center justify-between fixed w-full z-50 top-0 left-0 bg-[#f8d0ae]'>
       <Link className='flex items-center' href='/'>
         <Image
           src='/logo.png'
@@ -44,8 +44,8 @@ export const Header = ({ color = 'white' }) => {
           src='/logo.png'
           alt='logo'
           className='block lg:hidden'
-          width={88}
-          height={88}
+          width={72}
+          height={72}
         />
         <p
           className='ml-4 pl-4 font-bold border-l-2 hidden md:block'
