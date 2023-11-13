@@ -11,10 +11,6 @@ const links = [
     name: 'О фестивале',
   },
   {
-    href: '/',
-    name: 'Конкурсы',
-  },
-  {
     href: '/news',
     name: 'Новости',
   },
@@ -114,6 +110,7 @@ export const Header = ({ color = 'black' }) => {
                 key={link.name}
                 href={link.href}
                 className='hover:underline text-black'
+                onClick={() => setNav(false)}
               >
                 {link.name}
               </Link>
