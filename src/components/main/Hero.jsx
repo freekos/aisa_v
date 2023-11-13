@@ -2,7 +2,7 @@ import { Header } from '../shared';
 
 export const Hero = () => {
   return (
-    <div className='min-w-screen min-h-screen bg-[url("/images/main.jpeg")] bg-cover bg-bottom relative'>
+    <div className='min-w-screen min-h-screen bg-[url("/images/main.jpeg")] bg-cover bg-top relative'>
       {/* <div
         style={{
           position: 'absolute',
