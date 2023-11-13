@@ -20,16 +20,6 @@ export const Hero = () => {
           <source src='./main.m4v' type='video/mp4' />
         </video>
       </div>
-      <div
-        style={{
-          position: 'absolute',
-          height: '100vh',
-          width: '100%',
-          backgroundImage: 'linear-gradient(black, transparent)',
-        }}
-      >
-        {/* <Header /> */}
-      </div>
     </div>
   );
 };
