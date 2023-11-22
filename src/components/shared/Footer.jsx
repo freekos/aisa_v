@@ -95,7 +95,7 @@ export const Footer = () => {
               Политика конфиденциальности
             </Link>
             <Link href='/' className='text-sm text-gray-500 hover:underline'>
-              Условия использования
+              Публичная оферта
             </Link>
             <p className='text-sm text-gray-500'>© 2023 The Voice of Asia</p>
           </div>
