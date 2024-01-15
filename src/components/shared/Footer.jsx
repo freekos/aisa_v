@@ -91,11 +91,11 @@ export const Footer = () => {
             ))}
           </div>
           <div className='flex flex-col gap-4'>
-            <Link href='/' className='text-sm text-gray-500 hover:underline'>
+            <Link
+              href='/privacy-policy'
+              className='text-sm text-gray-500 hover:underline'
+            >
               Политика конфиденциальности
-            </Link>
-            <Link href='/' className='text-sm text-gray-500 hover:underline'>
-              Публичная оферта
             </Link>
             <p className='text-sm text-gray-500'>© 2023 The Voice of Asia</p>
           </div>
