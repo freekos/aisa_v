@@ -53,12 +53,6 @@ export const Header = ({ color = 'black' }) => {
           width={72}
           height={72}
         />
-        <p
-          className='ml-4 pl-4 font-bold border-l-2 hidden md:block'
-          style={{ color: color, borderLeftColor: color }}
-        >
-          ИЮЛЬ, 22-28, 2024
-        </p>
       </Link>
       <nav className='hidden lg:flex gap-8'>
         <p
